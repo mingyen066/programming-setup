@@ -1,0 +1,20 @@
+[alias]
+    st = status
+    ck = checkout
+    rst = reset HEAD
+    df = difftool
+    cm = commit
+    cmm = commit -m
+    dts = difftool --staged
+    b=branch
+    rs=reset
+    l=log --decorate --graph
+[user]
+    email = mingyen066@gmail.com
+    name = Chung, Ming-Yen
+[diff]
+    tool = vimdiff
+[difftool]
+    prompt = false
+[core]
+    editor = vim
