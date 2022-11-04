@@ -1,21 +1,20 @@
-# Linux
+# Linux Bash
 alias du1="du -h --max-depth=1"
 alias sai="sudo apt-get install"
 alias lh="ls -hl"
-# Shell command
 alias c="clear"
-alias h='history'
+alias h="history"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ps?="ps aux | grep"
-# Python
-alias p="python"
-alias ca="conda activate"
-alias cde="conda deactivate"
+# Mac bash
+alias c="clear"
+alias h="history"
+alias count="find . -type f | wc -l"
+alias count_current="ls -1 | wc -l"
 # Git
 alias g="git"
 alias ga="git add"
-alias gap="git add -p"
 alias gaa="git add ."
 alias gb="git branch"
 alias gcm="git commit"
@@ -27,7 +26,13 @@ alias gl="git log --all --graph --decorate"
 alias gl1="git log --all --graph --decorate --oneline"
 alias grs="git reset"
 alias gs="git status"
-# Kubernetes
-alias kc="kubectl"
-# Terraform
+# Tools
+alias a="ansible"
+alias k="kubectl"
 alias t="terraform"
+# Python env
+alias p="python"
+alias ca="conda activate"
+alias cde="conda deactivate"
+alias ml="conda activate ml"
+alias xdl="conda activate xdl"
