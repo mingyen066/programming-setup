@@ -36,6 +36,9 @@ alias grs="git reset"
 alias gs="git status"
 # Tools
 alias t="terraform"
+alias td="terraform destroy"
+alias tp="terraform plan"
+alias ts="terraform show"
 # Python env
 alias p="python"
 alias ca="conda activate"
