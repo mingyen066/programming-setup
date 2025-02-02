@@ -11,7 +11,7 @@
     l=log --decorate --graph
 [user]
     email = mingyen066@gmail.com
-    name = Chung, Ming-Yen
+    name = Ming-Yen Chung
 [diff]
     tool = vimdiff
 [difftool]
