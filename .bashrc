@@ -41,10 +41,18 @@ alias a="ansible"
 alias k="kubectl"
 alias t="terraform"
 alias h="helm"
-# Java
-alias build="./gradlew build -x test" 
 # Python env
 alias p="python"
 alias ca="conda activate"
 alias cde="conda deactivate"
 alias ml="conda activate ml"
+alias kafka=". ~/code/kafka/.venv/bin/activate"
+# Java
+alias build="./gradlew clean build -x test"
+# Intellij
+if [[ "$TERMINAL_EMULATOR" == "JetBrains-JediTerm" ]]; then
+  bindkey "^[^[OD" beginning-of-line
+  bindkey "^[^[OC" end-of-line
+
+  bindkey "^[^[[3~" kill-word
+fi
