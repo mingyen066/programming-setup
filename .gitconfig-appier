@@ -1,0 +1,5 @@
+[user]
+    name = Ming-Yen Chung
+    email = mingyen.chung@appier.com
+[core]
+    sshCommand = "ssh -i ~/.ssh/appier -o IdentitiesOnly=yes"
