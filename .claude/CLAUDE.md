@@ -1,6 +1,6 @@
-# Global Guidelines
+When creating pull requests, do not use templated sections like "## Summary", "## Test plan", or similar headers. Just write the PR description directly as plain text.
 
-## Rules
+# Code Quality
 
 When writing or reviewing code, always check:
 
