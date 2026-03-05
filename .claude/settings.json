@@ -1,4 +1,7 @@
 {
+  "env": {
+    "PATH": "/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+  },
   "attribution": {
     "commit": "",
     "pr": ""
@@ -31,6 +34,7 @@
       "Bash(ag *)",
       "Bash(ag * | *)",
       "Bash(jq *)",
+      "Bash(sed *)",
       "Bash(echo *)",
       "Bash(env)",
       "Bash(printenv *)",
