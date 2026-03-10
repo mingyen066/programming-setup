@@ -28,6 +28,10 @@ When writing or reviewing code, always check:
 - **Never force push or amend** after a PR is created — always use new commits to address feedback
 - **Before pushing**, always run: `./gradlew build` (includes spotlessCheck, checkstyle) + related unit tests + integration tests
 
+## KIP Implementation
+- KIP is the source of truth — config names, default values, descriptions, and behavior must match the KIP exactly
+- Always cross-check config defaults, types, and valid values against the KIP before implementing
+
 ## Config Deprecation
 - When marking `@Deprecated`, check **all related constants** (`_CONFIG`, `_DOC`, `_DEFAULT`), not just some
 - After adding `@Deprecated(forRemoval = true)`, check all Java files referencing the constant for build warnings; add `@SuppressWarnings("removal")` where needed
