@@ -53,7 +53,7 @@ alias gpl="git pull"
 alias gpr="git pull --rebase"
 alias gp="git push"
 alias gpc="gh pr checkout"
-sync-trunk() {
+st() {
   local branch="${1:-trunk}"
   git fetch upstream && git checkout "$branch" && git reset --hard "upstream/$branch" && git push origin "$branch"
 }
