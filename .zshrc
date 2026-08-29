@@ -52,6 +52,11 @@ alias gs="git status"
 alias gpl="git pull"
 alias gpr="git pull --rebase"
 alias gp="git push"
+alias gpc="gh pr checkout"
+sync-trunk() {
+  local branch="${1:-trunk}"
+  git fetch upstream && git checkout "$branch" && git reset --hard "upstream/$branch" && git push origin "$branch"
+}
 # Tools
 alias a="ansible"
 alias k="kubectl"
